@@ -1,3 +1,4 @@
+/*
 // This is the background script for the extension
 
 // A listener for when the user clicks on the extension button
@@ -20,3 +21,5 @@ function receiver(request, sender, sendResponse) {
     // Not doing anything for messages received but I could!
   }
 }
+
+*/

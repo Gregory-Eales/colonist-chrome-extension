@@ -1,0 +1,21 @@
+  
+{
+  "manifest_version": 2,
+  "name": "Colonist Banner Remover",
+  "version": "1.0",
+  "description":"This extension removes the colonist.io discord banner in games to free up space for the board.",
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://colonist.io/"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "square_logo.png"
+  }
+  
+}
